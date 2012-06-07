@@ -1,0 +1,19 @@
+<!-- DELETE VIEW -->
+<p class="avatar">
+	<img src="img/members/{{member.username}}.jpg" />
+</p>
+<form class="form-vertical">
+	<fieldset>
+		<legend>Delete Member</legend>
+		<div class="control-group">
+			<label class="control-label" for="name">Name:</label>
+			<div class="controls">
+				<span class="input uneditable-input span3">{{member.name}}</span>
+			</div>
+		</div>
+		<div class="form-actions">
+			<button class="btn btn-danger" type="submit">Delete</button>
+			<input type="hidden" name="_method" value="delete" />
+		</div>
+	</fieldset>
+</form>

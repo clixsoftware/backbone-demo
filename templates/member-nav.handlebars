@@ -1,0 +1,16 @@
+<div class="subnav">
+	<ul class="nav nav-pills">
+		<li class="{{#if crud.create}}active{{/if}}">
+			<a href="#/members/create"><i class="icon-edit"></i> Create</a>
+		</li>
+		<li class="{{#if crud.read}}active{{/if}}">
+			<a href="#/members/{{crud.id}}" class="{{#if crud.create}}disabled{{/if}}"><i class="icon-user"></i> View</a>
+		</li>
+		<li class="{{#if crud.update}}active{{/if}}">
+			<a href="#/members/{{crud.id}}/update" class="{{#if crud.create}}disabled{{/if}}"><i class="icon-pencil"></i> Edit</a>
+		</li>
+		<li class="{{#if crud.delete}}active{{/if}}">
+			<a href="#/members/{{crud.id}}/delete" class="{{#if crud.create}}disabled{{/if}}"><i class="icon-remove"></i> Delete</a>
+		</li>
+	</ul>
+</div>

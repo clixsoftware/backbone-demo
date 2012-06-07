@@ -1,0 +1,129 @@
+/* TAGS */
+html {
+  overflow-y: scroll;
+}
+body {
+  background-image: none;
+  background: url("../../img/site-bg.png") repeat 0 0 #f4f4f4;
+  padding-bottom: 150px;
+}
+table {
+  background-color: #fff;
+}
+/* CLASSES */
+.member .avatar {
+  text-align: center;
+  margin-bottom: 22px;
+}
+.member .avatar img {
+  width: 100px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+.member dl {
+  display: inline-block;
+  vertical-align: top;
+}
+.member dl dt {
+  width: 107px;
+}
+.member dl dd {
+  margin-left: 120px;
+}
+.member form {
+  margin-bottom: 0;
+}
+.member form legend {
+  margin-bottom: 3px;
+}
+.member form .form-actions {
+  margin-bottom: 0;
+  padding-bottom: 8px;
+}
+.member form .form-actions button {
+  margin-left: 5px;
+}
+.member form .form-actions button:first-child {
+  margin-left: -18px;
+}
+.subnav {
+  height: auto;
+}
+.subnav a.disabled {
+  color: #000;
+  opacity: 0.2;
+  -moz-opacity: 0.2;
+  filter: alpha(opacity=2);
+}
+.subnav a.disabled:hover {
+  cursor: default;
+}
+/* PAGES */
+.page {
+  display: none;
+}
+/* TEMPLATES */
+.template {
+  position: relative;
+}
+.template .alert {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  min-width: 84%;
+  min-height: 20px;
+  padding-top: 9px;
+}
+/* BOOTSTRAP */
+h2 {
+  margin-bottom: 10px;
+}
+ul {
+  margin-bottom: 18px;
+}
+section {
+  padding-top: 40px;
+}
+.jumbotron .lead {
+  margin-bottom: 0;
+}
+.jumbotron .lead em {
+  font-family: 'Trade Winds', cursive;
+  font-style: normal;
+  color: #444;
+}
+.jumbotron .lead em span {
+  color: #0072b4;
+}
+.page-header {
+  margin-top: 0;
+}
+.page-header h1 small small {
+  font-size: 13.5px;
+}
+/* IMAGES */
+.crossbones {
+  z-index: 1;
+  height: 80px;
+  opacity: .7;
+}
+table .actions {
+  text-align: center;
+}
+/* HELPERS */
+.center {
+  text-align: center;
+}
+.relative {
+  position: relative;
+}
+small.divider {
+  display: inline-block;
+  padding: 0 5px 0 4px;
+  position: relative;
+  top: -1px;
+  color: #bbb;
+  font-weight: bold;
+  font-size: 12px;
+}
