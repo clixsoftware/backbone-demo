@@ -7,9 +7,12 @@ Clone the repo, git clone git@github.com:jyounce/backbone-demo.git
 Quick Start
 -----------
 1. You need to install node.js and express.js
-2. cd to the express folder then type node app.js
+2. cd to the express folder then type node data-server
 3. That starts the api express.js server
 4. Open up index.html in your browser and enjoy!
+* If you want to run your views off a webserver then
+1. cd to the express folder then type node view-server
+2. Then in your browser, go to: http://localhost:3001/
 
 
 Features this Backbone demo application supports
